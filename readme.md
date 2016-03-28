@@ -2,7 +2,7 @@
 
 A simple two player racing game. Who can button smash harder?
 
-## Technologies Used**
+## Technologies Used
 
 * HTML
 * jQuery
