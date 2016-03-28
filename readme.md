@@ -1,6 +1,6 @@
 #Racing Game
 
-A simple two player racing game. Who can button smash harder?
+A simple two player racing game. Who can button mash harder?
 
 ## Technologies Used
 
