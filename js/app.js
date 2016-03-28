@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
-  var ferrari = new Player('red', 'sports', 81, '#player1');
-  var porsche = new Player('black', 'sports', 80, '#player2');
+  var Andy = new Player('red', 'sports', 81, '#player1');
+  var Sam = new Player('black', 'sports', 80, '#player2');
 
 
   function Player(color, type, keyCode, id){
