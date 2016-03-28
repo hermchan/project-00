@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
-  var ferrari = new Car('red', 'sports', 81, '#car1');
-  var porsche = new Car('black', 'sports', 80, '#car2');
+  var ferrari = new Player('red', 'sports', 81, '#player1');
+  var porsche = new Player('black', 'sports', 80, '#player2');
 
 
-  function Car(color, type, keyCode, id){
+  function Player(color, type, keyCode, id){
     $('body').on("keyup", function (event){
       if (event.keyCode===keyCode){
         $(id).offset({left:position += 50});
@@ -15,7 +15,7 @@ $(document).ready(function(){
     this.color = color;
     this.type = type;
     this.id = id;
-    var position = 10;
+    var position = 135;
   }
 
   function getWinner(id, position){
